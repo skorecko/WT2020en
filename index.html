@@ -1,16 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <title>My first HTML page</title>
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
+    <meta charset="UTF-8" />
 
-<body>
-	<div id="app"></div>
+    <style>
+      body {
+        background-image: url(http://hron.fei.tuke.sk/~korecko/WT/03htmlCSS/obr/poz.png);
+        background-repeat: no-repeat;
+      }
+      p {
+        background-color: lightblue;
+      }
+      p::first-line {
+        color: rgb(200, 255, 237);
+      }
 
-	<script src="src/index.js">
-	</script>
-</body>
+      #p1 {
+        color: red;
+        background-color: lightsalmon;
+      }
+      #p1:hover {
+        background-color: rgb(238, 221, 210);
+      }
 
+      p {
+        background-color: lightgreen;
+      }
+    </style>
+  </head>
+
+  <body>
+    <a href="#slinks">Go to links</a>
+
+    Hello hello
+    <br />
+    world
+    <br />
+
+    <h1>Paragraph 1</h1>
+
+    <p id="p1">
+      <b>Paragraph 1</b> Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1
+      Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1
+      Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1
+      Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1
+    </p>
+
+    <h2>Paragraph 2</h2>
+    <p>
+      <i> Paragraph 2</i> Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2
+      Paragraph 2 Paragraph 2 Paragraph 2 Paragraph 2
+    </p>
+
+    <h2>Preformatted text</h2>
+
+    <pre>
+   if p>3 then
+      i++
+   end
+	</pre
+    >
+
+    <h2 id="slinks">Some links</h2>
+
+    <a href="https://kurzy.kpi.fei.tuke.sk/wt-en/student/info.html"
+      >WT practices</a
+    >
+    <br />
+    <a target="_blank" href="https://www.tuke.sk/wps/portal">TUKE</a>
+  </body>
 </html>
