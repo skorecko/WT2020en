@@ -8,24 +8,167 @@
   </head>
 
   <body>
-    <h1 id="ptop">My Favourite Trees</h1>
+    <header>
+      <h1 id="ptop">My Favourite Trees</h1>
+    </header>
 
-    <h2>Welcome!</h2>
-    <p>
-      Welcome to my page. My name is <b>Ján ŠK. Trieska</b>. I live in
-      <i>Woodly Woodens</i>. I am a <i>woodcutter</i>. I love trees and I would
-      like to tell you something about my most favourite ones.
-    </p>
+    <nav id="menu">
+      <a href="#artintro">Welcome!</a>
+      <a href="#artpine">Pine</a>
+      <a href="#artoak">Oak</a>
+      <a href="#artforest">My Forest</a>
+    </nav>
 
-    <h2>Oak</h2>
+    <main>
+      <article id="artintro">
+        <h2>Welcome!</h2>
+        <p>
+          Welcome to my page. My name is <b>Ján ŠK. Trieska</b>. I live in
+          <i>Woodly Woodens</i>. I am a <i>woodcutter</i>. I love trees and I
+          would like to tell you something about my most favourite ones.
+        </p>
+        <footer class="menuLink">
+          <a href="#ptop">Back to top</a>
+        </footer>
+      </article>
 
-    <img src="fig/oak.png" height="150" title="fig.oak" alt="oak" />
+      <article id="artpine">
+        <h2>Pine</h2>
+        <figure>
+          <img src="fig/pineBw.png" height="150" title="fig.pine" alt="pine" />
+        </figure>
 
-    <p>
-      Oak is a deciduous tree with hardwood. It lives long and grows slowly. Its
-      leaves are simple, lobate and fall off before the winter.
-    </p>
+        <section>
+          <header><h3>Basic Data</h3></header>
+          <p>
+            Pine is a softwood coniferous tree.
+          </p>
 
-    Ján ŠK. Trieska (c) 2020
+          <dl>
+            <dt>
+              Latin name:
+            </dt>
+            <dd>Pinus</dd>
+            <dt>Division:</dt>
+            <dd>Pinophyta</dd>
+            <dt>Class:</dt>
+            <dd>Pinopsida</dd>
+          </dl>
+
+          <article>
+            <h3>Where You Can Find Pines</h3>
+            <p>Pines grow in</p>
+            <ol>
+              <li>Europe and</li>
+              <li>Asia.</li>
+            </ol>
+          </article>
+        </section>
+
+        <section>
+          <h3>My Opinion</h3>
+
+          <p>
+            I like pines, because
+          </p>
+
+          <ul>
+            <li>they have long needles,</li>
+            <li>smell nice and</li>
+            <li>thanks to the softwood they are easy to cut.</li>
+          </ul>
+        </section>
+
+        <footer class="menuLink">
+          <a href="#ptop">Back to top</a>
+        </footer>
+      </article>
+
+      <article id="artoak">
+        <h2>Oak</h2>
+        <figure>
+          <img src="fig/oak.png" height="150" title="fig.oak" alt="oak" />
+        </figure>
+        <p>
+          Oak is a deciduous tree with hardwood. It lives long and grows slowly.
+          Its leaves are simple, lobate and fall off before the winter.
+        </p>
+        <footer class="menuLink">
+          <a href="#ptop">Back to top</a>
+        </footer>
+      </article>
+
+      <article id="artforest">
+        <h2>My Forest</h2>
+
+        <p>
+          I own a small forest. Well, originally it was a meadow but I wanted to
+          have a forest so I planted some trees there. Details can be seen in
+          the table below.
+        </p>
+
+        <table>
+          <caption>
+            Trees in my Forest
+          </caption>
+          <thead>
+            <tr>
+              <th colspan="2">Tree</th>
+              <th>Number</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Pine</td>
+              <td>
+                <img
+                  src="fig/pineBw.png"
+                  height="50"
+                  title="obr. borovica"
+                  alt="borovica"
+                />
+              </td>
+              <td>27</td>
+            </tr>
+            <tr>
+              <td>Oak</td>
+              <td>
+                <img src="fig/oak.png" height="50" title="obr. dub" alt="dub" />
+              </td>
+              <td>23</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <th colspan="2">Sum</th>
+              <th>50</th>
+            </tr>
+          </tfoot>
+        </table>
+
+        <footer class="menuLink">
+          <a href="#ptop">Back to top</a>
+        </footer>
+      </article>
+    </main>
+
+    <footer>
+      Ján ŠK. Trieska (c) 2020
+    </footer>
+
+    <aside>
+      <p>Interesting links:</p>
+      <ul>
+        <li>
+          <a href="https://www.youtube.com" target="_blank">Youtube</a> <br />
+        </li>
+        <li>
+          <a href="https://www.gmail.com" target="_blank">Gmail</a> <br />
+        </li>
+        <li><a href="https://www.dropbox.com" target="_blank">Dropbox</a></li>
+      </ul>
+    </aside>
   </body>
 </html>
