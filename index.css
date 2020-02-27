@@ -13,6 +13,14 @@ article {
   font-size: 0.7rem;
   text-align: justify;
   text-indent: 0.8em;
+
+  border-style: dotted solid double dashed;
+  border-width: 0.1em;
+  padding: 0.5em;
+  margin: 1em;
+  border-color: gray;
+  width: 80%;
+  min-width: 12em;
 }
 
 ul {
@@ -23,10 +31,10 @@ table,
 th,
 td {
   border-style: solid;
-  border-color: red;
+  border-color: salmon;
 }
 
 table {
   border-collapse: separate;
-  border-spacing: 1em 2em;
+  border-spacing: 0.1em 0.22em;
 }
