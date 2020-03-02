@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(252, 252, 241);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+article {
+  font-size: 0.7rem;
+  text-align: justify;
+  text-indent: 0.8em;
+
+  border-style: dotted solid double dashed;
+  border-width: 0.1em;
+  padding: 0.5em;
+  margin: 1em;
+  border-color: gray;
+  width: 80%;
+  min-width: 12em;
+}
+
+ul {
+  list-style: square;
+}
+
+table,
+th,
+td {
+  border-style: solid;
+  border-color: salmon;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0.1em 0.22em;
+}
